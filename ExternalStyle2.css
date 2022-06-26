@@ -1,34 +1,137 @@
+html {
+	font-size: 14px;
+}
 
-A:link {color: gray}
-A:visited, A:active {color: green}
-A:hover {text-decoration: overline; color: teal}
-	
-Body {
+body {
 	background-color: white;
-	font-family: cambria;
-	color: gray	
-	}
+	font-family: Cambria, 'Times New Roman', serif;
+	font-weight: bold;
+	font-style: italic;
+	color: gray;
+}
 
-H1 {font-size: 50pt; text-align: right}
-H2 {font-size: 25pt; text-align: right}
-H3 {font-size: 10pt; text-align: center}
-H4 {text-align: center}
-H5 {font-size: 15pt}
+section {
+	margin: 2rem 0 2rem 0;
+}
 
-P {font-size: 10pt; font-family: monospace}
+/* Links */
 
-Table {
-	width: 400px; 
-	font-family: monospace; 
-	color: white; 
+a:link {
+	color: gray;
+}
+
+a:visited, a:active {
+	color: green;
+}
+
+a:hover {
+	text-decoration: overline;
+	color: teal;
+}
+
+/* Navigation */
+
+nav ul {
+	width: 100%;
+	margin: 0 auto;
+	text-align: right;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	font-size: 1.5rem;
+	padding: 0.2rem;
+}
+
+/* Hero */
+
+#hero img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.slogan {
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+/* Forms */
+
+form {
+	font-family: monospace;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	background-color: green;
+	padding: 2rem;
+}
+
+form p {
+	margin: 0;
+	padding: 0.2rem;
+}
+
+form label {
+	display: block;
+	text-align: left;
+}
+
+input[type=text], input[type=date], input[type=time] {
+	width: 100%;
+}
+
+/* General Website Styling */
+
+.review {
+	text-align: center;
+}
+
+footer {
+	text-align: right;
+}
+
+.about p {
+	font-size: 1rem;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.about img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+table {
+	width: 400px;
+	font-family: monospace;
+	color: white;
 	background-color: green;
 	margin: .8em;
-	border-color: darkgreen}
+	border-color: darkgreen;
+	font-weight: normal;
+}
 
+.contact {
+	font-weight: normal;
+}
 
-Form {
-	font-family: monospace; 
-	text-align: center; 
-	color: white; 
-	background-color: green}
+/* Responsive */
 
+@media only screen and (min-width: 600px) {
+	html {
+		font-size: 18px;
+	}
+
+	body {
+		width: 600px;
+		margin: 0 auto;
+	}
+}

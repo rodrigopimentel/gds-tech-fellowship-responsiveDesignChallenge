@@ -1,80 +1,82 @@
-<HTML>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="ExternalStyle2.css">
 	<title>Farm to Fork Homepage</title>
-	<Script Language="JavaScript"></Script>
-	<Link Rel="stylesheet" Type="text/css" HRef="ExternalStyle2.css">
 </head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Project2.html">HOME</a></li>
+				<li><a href="#res">RESERVATIONS</a></li>
+				<li><a href="#rev">REVIEWS</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<main>
+		<section id="hero">
+			<img src="logo.png" alt="Text reads 'Farm to Fork' with">
+			<p class="slogan">A Sustainable, Fine Dining Experience.</p>
+		</section>
+		<section id="res">
+			<h2>Reservations</h2>
 
+			<h3>Book a Table!</h3>
+			<form action="">
+				<p>
+					<label for="name">First and Last Name:</label>
+					<input id="name" name="name" type="text">
+				</p>
 
-<body><EM>
+				<p>
+					<label for="date">Date:</label>
+					<input id="date" name="date" type="date">	
+				</p>
+			
+				<p>
+					<label for="time">Time:</label>
+					<input id="time" name="time" type="time">
+				</p>
 
-		<H2>
-			<a href="http://stu.cbu.edu/~nmutasa/Project2.html">HOME</a>
-			<a href="#res">RESERVATIONS</a>
-			<a href="#rev">REVIEWS</a>
-			<a href="http://stu.cbu.edu/~nmutasa/About.html">ABOUT</a>
-			<a href="http://stu.cbu.edu/~nmutasa/Contact.html">CONTACT</a>
-		</H2>
+				<button type="submit">submit</button>
+				<input class="reset" type="reset" value="reset">
+			</form>
+		</section>
+		<section id="rev">
+			<h2>Reviews</h2>
+			<p class="review">"Do what you can to support local farmers!" - Sandy</p>
+			<p class="review">"Learn how empowering it is to know where your food comes from!" - Tinashe</p>
+			<p class="review">"Fight global warming, labor exploitation, food deserts, and so much more!"- Victor</p>
+			<p class="review">"Buy and eat local!" - Koda</p>
+		</section>
+		<section>
+			<h3>Share your Farm to Fork Experience!</h3>
+			<form action="">
 
-		<center><img src="logo.png" vspace=5></center>
-		<H4>A Sustainable, Fine Dining Experience.</H4>
-		<BR><BR>
-		<BR><BR>
-		<BR><BR>
-		<BR><BR>
-		<BR><BR>
-
-
-		<a name="res">
-			<H2>RESERVATIONS</H2>
-			<H5>Book a Table!</H5>
-			<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
-				<BR><BR>
-				First and Last Name: <input type="text" size=40 name="Name">
-				<BR><BR>
-				Date(ex. 05/25/20): <input type="text" size=20 name="Date">
-				Time(ex. 09:30PM): <input type="text" size=20 name="Time">
-				<BR><BR>
-				<input type="submit" name="submit" value="submit">
-				<input type="reset" name="reset" value="reset">
-				<BR><BR>
-			</Form>
-
-			<BR>
-			<BR>
-			<BR>
-			<BR>
-
-			<a name="rev">
-				<H2>REVIEWS</H2>
-				<H4>"Do what you can to support local farmers!" - Sandy</H4>
-				<H4>"Learn how empowering it is to know where your food comes from!" - Tinashe</H4>
-				<H4>"Fight global warming, labor exploitation, food deserts, and so much more!"- Victor</H4>
-				<H4>"Buy and eat local!" - Koda</H4>
-
-				<BR>
-
-				<H5>Share your Farm to Fork Experience!</H5>
-				<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
-					<BR><BR>
-					First Name: <input type="text" size=20 name="Name">
-					Date of Visit: <input type="text" size=20 name="Visit">
-					<BR><BR>
-					Comments: <input type="text" size=65 name="Review">
-					<BR><BR>
-					<input type="submit" name="submit" value="submit">
-					<input type="reset" name="reset" value="reset">
-					<BR><BR>
-				</Form>
-
-				<H2>
-					<a href="http://stu.cbu.edu/~nmutasa/Project2.html">HOME</a>
-				</H2>
-				<H4>A Sustainable, Fine Dining Experience.</H4>
-
-	</EM></body>
-
-</HTML>
+				<p>
+					<label for="name">First Name:</label>
+					<input id="name" name="name" type="text">
+				</p>
+				<p>
+					<label for="date">Date of Visit:</label>
+					<input id="date" name="date" type="date">
+				</p>
+				<p>
+					<label for="comments">Comments:</label>
+					<input id="comments" name="name" type="text">		
+				</p>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<a href="Project2.html">HOME</a>
+		<p class="slogan">A Sustainable, Fine Dining Experience.</p>
+	</footer>
+</body>
+</html>
