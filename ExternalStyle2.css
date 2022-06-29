@@ -34,13 +34,13 @@ a:hover {
 nav ul {
 	width: 100%;
 	margin: 0 auto;
-	text-align: right;
+	text-align: center;
 	padding: 0;
 }
 
 nav li {
 	display: inline;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	padding: 0.2rem;
 }
 
